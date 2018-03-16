@@ -5,3 +5,12 @@
   height: 200px;
 
 }
+.center {
+  text-align: center;
+}
+.resume {
+  text-align: left;
+  font-size: 1em;
+  padding: 5%;
+  color: darkgray;
+}

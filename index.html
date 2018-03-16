@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PARQUE CENTENARIO</title>
-  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-  <link href="css/main.css" type="text/css" rel="stylesheet">
-  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://maps.google.com/maps/api/js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARQUE CENTENARIO</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js"></script>
 
-</head>
-<body>
-  <div class="container">
-    <!--HEADER-->
-    <div class="row">
-      <div class="col-md-12">
-
+  </head>
+  <body>
+    <div class="container">
+      <!--HEADER-->
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="center"> Vení a visitar el Parque Centario</h1>
+        </div>
       </div>
     </div>
     <!--CARROUSEL-->
@@ -46,25 +47,22 @@
             </div>
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img src="img/img3.JPG" alt="...">
-                <div class="carousel-caption">
-                  texto texto
-                </div>
+                <img src="img/img0.JPG" alt="...">
+              </div>
+              <div class="item">
+                <img src="img/img2.JPG" alt="...">
               </div>
               <div class="carousel-inner" role="listbox">
-                <div class="item active">
+                <div class="item">
+                  <img src="img/img3.JPG" alt="...">
+              </div>
+              <div class="carousel-inner" role="listbox">
+                <div class="item">
                   <img src="img/img4.JPG" alt="...">
-                  <div class="carousel-caption">
-                    texto texto
-                  </div>
-                </div>
+              </div>
                 <div class="carousel-inner" role="listbox">
-                  <div class="item active">
+                  <div class="item">
                     <img src="img/img5.JPG" alt="...">
-                    <div class="carousel-caption">
-                      texto texto
-                    </div>
-                  </div>
                 </div>
 
                 <!-- Controls -->
@@ -79,97 +77,60 @@
               </div>
             </div>
           </div>
-          <!--TEXTO-->
-          <div class="row">
-            <div class="col-md-12">
-              <p>
-                El Parque Centenario es una de las opciones preferidas por los porteños para pasar un día
-
-                al aire libre, descansando, disfrutando de una actividad cultural o haciendo ejercicio, ya
-
-                que ofrece un espacio privilegiado para cualquier propuesta.
-                Diseñado por el famoso paisajista Charles Thays, fue creado para conmemorar el centenario
-
-                de la Revolución de Mayo.
-
-                Dentro de sus 12 hectáreas crece uno de los jardines más bellos de la ciudad, con
-
-                diferentes especies de árboles y flores.
-
-                En este parque, se puede visitar el anfiteatro donde suelen realizarse espectáculos
-
-                musicales y un lago donde habitan patos, peces y tortugas. También posee diversos
-
-                monumentos, esculturas y una fuente.
-
-                Además, tiene sectores de juegos infantiles y cuenta con baños públicos y sanitarios.
-
-                En los alrededores del Parque Centenario funciona cada fin de semana una importante feria
-
-                donde se ofrecen los más diversos productos entre los que se destacan libros y artesanías.</p>
-              </div>
-            </div>
-            <!--THUMBS-->
-            <div class="row">
-              <div class="col-md-2"></div>
-              <div class="col-md-2"></div>
-              <div class="col-md-2"></div>
-              <div class="col-md-2"></div>
-              <div class="col-md-2"></div>
-              <div class="col-md-2"></div>
-            </div>
-            <!--EXPERIENCIA-->
-            <div class="row">
-              <div class="col-md-4">
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockquote>
-              </div>
-              <div class="col-md-4">
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockquote>
-              </div>
-              <div class="col-md-4">
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                </blockquote>
-              </div>
-            </div>
-            <!--MAPA-->
-            <div class="row">
-              <div class="col-md-8">
-                <div id="map"></div>
-                <script>
-                function myMap() {
-                  var mapOptions = {
-                    center: new google.maps.LatLng(-34.6066116, -58.4368633,18),
-                    zoom: 15,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                  }
-                  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-                }
-                </script>
-                <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-              </div>
-              <div class="col-md-4">
-                <p><strong>Cómo llegar</strong><br />
-                  Dirección: Av. Díaz Vélez, C1414 CABA <br />
-                  El Parque Centenario se encuentra entre las avenidas Díaz Vélez (altura 4800) y Ángel
-                  Gallardo (altura 300). <br />
-                  En colectivo: 15, 24, 36, 42, 55, 57, 65, 71, 76, 92, 99, 105, 106, 109, 110, 112, 124,
-                  127, 135, 141, 146. <br />
-                  Subte: Línea B, bajar en estación Ángel Gallardo (caminar 400 metros).</p>
-                </div>
-              </div>
-              <!--FOOTER-->
-              <div class="row">
-                <div class="col-md-12"></div>
-              </div>
-            </div>
+        </div>
+      </div>
+      <!--TEXTO-->
+      <div class="row">
+        <div class="col-md-12">
+          <p class="resume">El Parque Centenario es una de las opciones preferidas por los porteños para pasar un día al aire libre, descansando, disfrutando de una actividad cultural o haciendo ejercicio, ya que ofrece un espacio privilegiado para cualquier propuesta. Diseñado por el famoso paisajista Charles Thays, fue creado para conmemorar el centenario de la Revolución de Mayo. Dentro de sus 12 hectáreas crece uno de los jardines más bellos de la ciudad, con diferentes especies de árboles y flores. En este parque, se puede visitar el anfiteatro donde suelen realizarse espectáculos musicales y un lago donde habitan patos, peces y tortugas. También posee diversos monumentos, esculturas y una fuente. Además, tiene sectores de juegos infantiles y cuenta con baños públicos y sanitarios. En los alrededores del Parque Centenario funciona cada fin de semana una importante feria donde se ofrecen los más diversos productos entre los que se destacan libros y artesanías.</p>
+        </div>
+      </div>
+      <!--THUMBS-->
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+      </div>
+      <!--EXPERIENCIA-->
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+      <!--MAPA-->
+      <div class="row">
+        <div class="col-md-8">
+          <div id="map"></div>
+            <script>
+              function myMap() {
+                var mapOptions = {
+                  center: new google.maps.LatLng(-34.6066116, -58.4368633,18),
+                  zoom: 15,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+              }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        </div>
+        <div class="col-md-4">
+        <p><strong>Cómo llegar</strong><br />
+        Dirección: Av. Díaz Vélez, C1414 CABA <br />
+        El Parque Centenario se encuentra entre las avenidas Díaz Vélez (altura 4800) y Ángel
+        Gallardo (altura 300). <br />
+        En colectivo: 15, 24, 36, 42, 55, 57, 65, 71, 76, 92, 99, 105, 106, 109, 110, 112, 124,
+        127, 135, 141, 146. <br />
+        Subte: Línea B, bajar en estación Ángel Gallardo (caminar 400 metros).</p>
+        </div>
+      </div>
+      <!--FOOTER-->
+      <div class="row">
+        <div class="col-md-12"></div>
+      </div>
+    </div>
 
           </body>
           </html>
