@@ -13,3 +13,14 @@
   padding: 5%;
   color: darkgray;
 }
+
+.mapouter, .gmap_canvas {
+  height:220px;width:720px;
+}
+.gmap_canvas {
+  background:none!important
+}
+
+.padd_map {
+  padding-top: 20px;
+}
