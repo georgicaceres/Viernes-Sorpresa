@@ -15,16 +15,11 @@
 }
 
 /*galeria*/
-#galeria {
-	margin-bottom:5%;
-}
 
 .thumbs div {
 		padding-top:15px;
 		padding-bottom:15px;
 }
 
-.thumbs div figure image {
-	vertical-align: middle
-}
+
 
