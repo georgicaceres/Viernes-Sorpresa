@@ -14,9 +14,12 @@
   color: darkgray;
 }
 
+/*galeria*/
+#galeria {
+	margin-bottom:5%;
+}
 
 .thumbs div {
-		border: 1px solid red;
 		padding-top:15px;
 		padding-bottom:15px;
 }
@@ -25,4 +28,3 @@
 	vertical-align: middle
 }
 
-/*galeria*/
