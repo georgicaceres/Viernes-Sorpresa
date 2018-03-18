@@ -13,3 +13,23 @@
   padding: 5%;
   color: darkgray;
 }
+/*footer*/
+#imgfooter{
+	width: 100%;
+}
+.footerFirst{
+	background: #1c1c1c;
+}
+.footerFirst .col-md-6{
+	padding: 3% 0 1% 0;
+	display: inline-block;
+}
+.social, .footerCont{
+	margin: 1%;
+}
+.footerFirst a, .footerFirst a:hover, .social{
+	color: #6b6b6b;
+}
+.footerSecond{
+	background: #272525;
+}
