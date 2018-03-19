@@ -2,7 +2,6 @@
 #map {
   width: 700px;
   height: 200px;
-
 }
 .center {
   text-align: center;
@@ -13,9 +12,6 @@
   padding: 5%;
   color: darkgray;
 }
-
-/*galeria*/
-
 .thumbs div {
 		padding-top:15px;
 		padding-bottom:15px;
@@ -40,8 +36,6 @@ margin-top: 15px;
   padding-top: 20px;
   border-radius: 12px;
 }
-
-/*footer*/
 #imgfooter{
 	width: 100%;
 }
