@@ -55,3 +55,11 @@ margin-top: 15px;
 .footerSecond{
 	background: #272525;
 }
+
+.fa-twitter-square:before,
+.fa-facebook-square:before,
+.fa-youtube-square:before,
+.fa-instagram:before 
+{
+  font-size: 2em;
+}
