@@ -14,6 +14,8 @@
   color: darkgray;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 /*galeria*/
 
@@ -35,3 +37,39 @@ margin-top: 15px;
   color: #43ab5f;
 }
 >>>>>>> text
+=======
+
+.mapouter, .gmap_canvas {
+  height:220px;width:720px;
+}
+.gmap_canvas {
+  background:none!important
+}
+
+.padd_map {
+  padding-top: 20px;
+  border-radius: 12px;
+}
+>>>>>>> georgi
+=======
+/*footer*/
+#imgfooter{
+	width: 100%;
+}
+.footerFirst{
+	background: #1c1c1c;
+}
+.footerFirst .col-md-6{
+	padding: 3% 0 1% 0;
+	display: inline-block;
+}
+.social, .footerCont{
+	margin: 1%;
+}
+.footerFirst a, .footerFirst a:hover, .social{
+	color: #6b6b6b;
+}
+.footerSecond{
+	background: #272525;
+}
+>>>>>>> footer

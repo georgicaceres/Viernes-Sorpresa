@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PARQUE CENTENARIO</title>
-  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-  <link href="css/main.css" type="text/css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="https://maps.google.com/maps/api/js"></script>
 
 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARQUE CENTENARIO</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.10.1/bootstrap-social.css" rel="stylesheet" >
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -157,39 +159,61 @@
         </div>
       </div>
       <!--MAPA-->
-      <div class="row">
+      <div class="row bg-info padd_map">
+        <!--Map_column-->
         <div class="col-md-8">
-          <div id="map" class="img-responsive">
-            <script>
-            function myMap() {
-              var mapOptions = {
-                center: new google.maps.LatLng(-34.6066116, -58.4368633,18),
-                zoom: 15,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-              }
-              var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <h6>Cómo llegar</h6>
-          <div class="resume">
-            <p> Dirección: Av. Díaz Vélez, C1414 CABA
-              El Parque Centenario se encuentra entre las avenidas Díaz Vélez (altura 4800) y Ángel
-              Gallardo (altura 300).
-              En colectivo: 15, 24, 36, 42, 55, 57, 65, 71, 76, 92, 99, 105, 106, 109, 110, 112, 124,
-              127, 135, 141, 146.
-              Subte: Línea B, bajar en estación Ángel Gallardo (caminar 400 metros).</p>
+          <div class="mapouter mx-auto">
+            <div class="gmap_canvas text-center">
+              <iframe  width="700" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Parque
+              Centenario&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              </iframe>
             </div>
           </div>
         </div>
-        <!--FOOTER-->
-        <div class="row">
-          <div class="col-md-12"></div>
+        <!--Cómo_llego_column-->
+        <div class="col-md-4">
+        <h6 class="text-info"><strong>Cómo llegar</strong></h6>
+        <div>
+          <p><strong>Dirección:</strong> El Parque Centenario se encuentra entre las avenidas Díaz Vélez (altura 4800) y Ángel
+            Gallardo (altura 300). <br>
+            <strong>En colectivo:</strong> 15, 24, 36, 42, 55, 57, 65, 71, 76, 92, 99, 105, 106, 109, 110, 112, 124,
+            127, 135, 141, 146.<br>
+            <strong>Subte:</strong> Línea B, bajar en estación Ángel Gallardo (caminar 400 metros).
+          </p>
         </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <div class="row">
+        <div class="col-md-12">
+        	<img src="img/footer2.png" alt="" id="imgfooter">
+        </div>
+    </div>
+    <div class="row text-center text-muted footerFirst">
+        <div class="col-md-6 "> 
+          <strong>SEGUINOS</strong>
+          <div class="footerCont">
+            <a href="https://www.facebook.com/gcba" target="_blank" class="btn btn-social-icon btn-lg social"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://twitter.com/gcba" target="_blank" class="btn btn-social-icon btn-lg social"><i class="fa fa-twitter-square"></i></a>   <a href="https://www.youtube.com/user/GCBA" target="_blank" class="btn btn-social-icon btn-lg social"><i class="fa fa-youtube-square"></i></a>
+            <a href="https://www.instagram.com/buenosaires/" target="_blank" class="btn btn-social-icon btn-lg social"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <strong> ACERCA DE ESTE SITIO </strong>
+          <div class="footerCont">
+            <a href="#" class="center-block">Términos y condiciones</a>
+            <a href="#" class="center-block">Políticas de privacidad</a>
+            <a href="#" class="center-block">Sobre esta web</a>
+            <a href="#" class="center-block">Mapa de Sitio</a>
+          </div>
+        </div>
+    </div>
+    <div class="row footerSecond text-center text-muted" >
+        <div class="col-md-12 footerCont">
+          <p>Copyright © 2018 Todos los derechos reservados. All rights reserved Turismo Buenos Aires - Argentina </p>
+        </div>
+    </div>
+
 
       </div>
     </body>
