@@ -13,6 +13,7 @@
   padding: 5%;
   color: darkgray;
 }
+<<<<<<< HEAD
 
 /*galeria*/
 
@@ -23,3 +24,14 @@
 
 
 
+=======
+nav{
+margin-top: 15px;
+}
+#nav-text{
+  text-align: right;
+  font-size: 2em;
+  margin: 15px;
+  color: #43ab5f;
+}
+>>>>>>> text
