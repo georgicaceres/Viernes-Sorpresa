@@ -14,6 +14,7 @@
   color: darkgray;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*galeria*/
 
@@ -35,3 +36,17 @@ margin-top: 15px;
   color: #43ab5f;
 }
 >>>>>>> text
+=======
+
+.mapouter, .gmap_canvas {
+  height:220px;width:720px;
+}
+.gmap_canvas {
+  background:none!important
+}
+
+.padd_map {
+  padding-top: 20px;
+  border-radius: 12px;
+}
+>>>>>>> georgi

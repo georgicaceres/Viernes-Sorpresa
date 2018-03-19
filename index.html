@@ -157,39 +157,34 @@
         </div>
       </div>
       <!--MAPA-->
-      <div class="row">
+      <div class="row bg-info padd_map">
+        <!--Map_column-->
         <div class="col-md-8">
-          <div id="map" class="img-responsive">
-            <script>
-            function myMap() {
-              var mapOptions = {
-                center: new google.maps.LatLng(-34.6066116, -58.4368633,18),
-                zoom: 15,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-              }
-              var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <h6>Cómo llegar</h6>
-          <div class="resume">
-            <p> Dirección: Av. Díaz Vélez, C1414 CABA
-              El Parque Centenario se encuentra entre las avenidas Díaz Vélez (altura 4800) y Ángel
-              Gallardo (altura 300).
-              En colectivo: 15, 24, 36, 42, 55, 57, 65, 71, 76, 92, 99, 105, 106, 109, 110, 112, 124,
-              127, 135, 141, 146.
-              Subte: Línea B, bajar en estación Ángel Gallardo (caminar 400 metros).</p>
+          <div class="mapouter mx-auto">
+            <div class="gmap_canvas text-center">
+              <iframe  width="700" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Parque
+              Centenario&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              </iframe>
             </div>
           </div>
         </div>
-        <!--FOOTER-->
-        <div class="row">
-          <div class="col-md-12"></div>
+        <!--Cómo_llego_column-->
+        <div class="col-md-4">
+        <h6 class="text-info"><strong>Cómo llegar</strong></h6>
+        <div>
+          <p><strong>Dirección:</strong> El Parque Centenario se encuentra entre las avenidas Díaz Vélez (altura 4800) y Ángel
+            Gallardo (altura 300). <br>
+            <strong>En colectivo:</strong> 15, 24, 36, 42, 55, 57, 65, 71, 76, 92, 99, 105, 106, 109, 110, 112, 124,
+            127, 135, 141, 146.<br>
+            <strong>Subte:</strong> Línea B, bajar en estación Ángel Gallardo (caminar 400 metros).
+          </p>
         </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <div class="row">
+      <div class="col-md-12"></div>
+    </div>
 
       </div>
     </body>
