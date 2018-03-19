@@ -13,8 +13,8 @@
   color: darkgray;
 }
 .thumbs div {
-		padding-top:15px;
-		padding-bottom:15px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 nav{
 margin-top: 15px;
@@ -55,7 +55,6 @@ margin-top: 15px;
 .footerSecond{
 	background: #272525;
 }
-
 .fa-twitter-square:before,
 .fa-facebook-square:before,
 .fa-youtube-square:before,
